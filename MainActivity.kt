@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    // Aquí llamamos a tu enrutador para que sea lo primero que se vea
+                    
                     RecetasApp()
                 }
             }
