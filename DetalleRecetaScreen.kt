@@ -31,7 +31,7 @@ fun DetalleRecetaScreen(
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // 2. Añadimos el botón de regreso
+        
             androidx.compose.material3.Button(
                 onClick = onVolverClick,
                 modifier = Modifier.fillMaxWidth()
