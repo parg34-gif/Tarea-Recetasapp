@@ -29,7 +29,7 @@ fun ListaRecetasScreen(
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .clickable { onRecetaClick(receta.id) } // Avisa al exterior qué id se pulsó
+                        .clickable { onRecetaClick(receta.id) } 
                 ) {
                     Column(modifier = Modifier.padding(16.dp)) {
                         Text(text = receta.nombre, style = MaterialTheme.typography.titleLarge)
